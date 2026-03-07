@@ -1,5 +1,9 @@
 # 🦫 MDK - Marmot Development Kit
 
+<p align="center">
+  <img src="https://blossom.primal.net/2b3aea4e6b4d646f4e5589d62bd8edd3495a532319f8ecbdf29ef027d4fed86e.png" alt="The Grand Marmot guards the mountain" width="400" />
+</p>
+
 **A Rust implementation of the Marmot Protocol for secure, decentralized group messaging**
 
 ![CI](https://github.com/marmot-protocol/mdk/actions/workflows/ci.yml/badge.svg)
