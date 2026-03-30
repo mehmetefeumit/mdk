@@ -15,7 +15,7 @@ categories = ["cryptography", "network-programming"]
 [features]
 default = []
 mip04 = []
-mip05 = []
+mip05 = ["nostr/nip59"]
 debug-examples = []
 
 [dependencies]
