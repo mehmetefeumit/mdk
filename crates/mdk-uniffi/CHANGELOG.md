@@ -27,6 +27,8 @@
 
 ### Breaking changes
 
+- `new_mdk_unencrypted()` is now gated behind the `test-utils` feature flag. Downstream consumers must enable the `test-utils` feature to access this function. ([#245](https://github.com/marmot-protocol/mdk/pull/245))
+
 ### Changed
 
 - Extracted `update_group_result_to_uniffi()` and `mdk_from_storage()` helpers to eliminate duplicated serialization and constructor logic across multiple exported functions. ([`#239`](https://github.com/marmot-protocol/mdk/pull/239))
